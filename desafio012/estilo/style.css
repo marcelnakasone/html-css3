@@ -64,15 +64,39 @@ section.normal {
     color: black;
 }
 
+section.normal {
+    background-color: white;
+    color: black;
+}
+
 section.imagem {
     background-color: rgba(0, 0, 0, 0.637);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.548);
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
 
 section.imagem > p {
     display: inline-block;
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.301);
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.534);
+    text-shadow: 1px 1px 0px black;
+    
+}
+
+section#img01 {
+    background-image: url('../imagens/10867.png');
+    background-position: center center;
+    
+
+}
+
+section#img02 {
+    background-image: url('../imagens/16122012---o-goleiro-cassio-levanta-a-taca-do-mundial-de-clubes-da-fifa-apos-o-corinthians-vencer-o-chelsea-1565740666155_v2_3x4.jpg');
+    
+
 }
 
 footer {
