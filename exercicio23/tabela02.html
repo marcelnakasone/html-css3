@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
 
         }
 
@@ -33,6 +34,13 @@
             color: white;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: rgb(0, 0, 0);
+        }
+
+
         tfoot{
             background-color: grey;
             color: white;
@@ -43,6 +51,11 @@
 
         td#total{
             text-align: right;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: gray;
+
         }
     </style>
 </head>
@@ -115,5 +128,6 @@
                 <td id="total"><strong>176 388 966</strong></td>
             </tfoot>
         </table>
+
 </body>
 </html>
