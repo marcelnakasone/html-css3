@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        td {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de Tabelas</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tfoot>
+                <tr>
+                    <th colspan="4" scope="row">Total</th>
+                    <td>1000</td>
+                </tr>
+        </tfoot>
+        <tbody>
+                <tr>
+                    <th rowspan="3" scope="rowgroup">Mulheres</th>
+                    <td>Duda Sampaio</td>
+                    <td>Alien</td>
+                    <td>Rambo</td>
+                    <td>Vingadores</td>
+                </tr>
+                <tr>
+                    <td >Vitória Yaya</td>
+                    <td>Carros</td>
+                    <td>Vida de Insetos</td>
+                    <td>Amor a Primeira Vista</td>
+                </tr>
+                <tr>
+                    <td>Gabi Portilho </td>
+                    <td>Pequeno Gigante</td>
+                    <td>Kaguya</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <th rowspan="3" scope="rowgroup">Homens</th>
+                    <td>Memphis Depay</td>
+                    <td>João e Maria</td>
+                    <td>Taxi Driver</td>
+                    <td>Clube da Luta</td>
+                </tr>
+                <tr>
+                    <td>Rodrigo Garro</td>
+                    <td>Mulher Maravilha</td>
+                    <td>Guardiões da Galáxia</td>
+                    <td>Minions</td>
+                </tr>
+                <tr>
+                    <td>Yuri Alberto</td>
+                    <td>Divertidamente</td>
+                    <td>Poderoso Chefão</td>
+                    <td>Star Wars</td>
+                </tr>
+        </tbody>
+
+
+    </table>
+</body>
+</html>
